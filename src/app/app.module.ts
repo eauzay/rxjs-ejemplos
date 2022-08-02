@@ -21,7 +21,6 @@ import { Example1Component } from './operators/examples/example1/example1.compon
 import { Example2Component } from './operators/examples/example2/example2.component';
 import { SubjectBehaviorSubjectComponent } from './observables/subject-behavior-subject/subject-behavior-subject.component';
 import { Example3Component } from './operators/examples/example3/example3.component';
-import { Example4Component } from './operators/examples/example4/example4.component';
 
 @NgModule({
   declarations: [
@@ -42,8 +41,7 @@ import { Example4Component } from './operators/examples/example4/example4.compon
     Example1Component,
     Example2Component,
     SubjectBehaviorSubjectComponent,
-    Example3Component,
-    Example4Component
+    Example3Component
   ],
   imports: [
     BrowserModule,
